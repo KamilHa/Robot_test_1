@@ -9,6 +9,7 @@ ${BROWSER}        firefox
 
 *** Test Cases ***
 Valid Login
+    [TAGs]    Smoke
     log to console   "dziala"
     Open browser    ${URL}    ${BROWSER}
     Close browser
